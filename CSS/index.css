@@ -2,10 +2,43 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    scroll-behavior: smooth;
-    margin: 0;
+/* ----------------------------------------------------------------------------- */
+/* Loader ---------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- */
+
+body{
+  scroll-behavior: smooth;
+  overflow: hidden;
+  margin: 0;
 }
+  
+#myLoading{
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  z-index: 999999999999999999999;
+}
+
+#loaderDiv{
+  margin: 0 0 2em;
+  width: 20%;
+  text-align: center;
+  padding: 1em;
+  margin: 0 auto 1rem;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#loaderSize{
+  transform: scale(3);
+}
+
+/* ------------------------------------------------------------------------- */
 
 h1 , h2 , h3 , h4 , h5 , h6 {
     font-family: 'Alegreya', serif;
@@ -26,30 +59,30 @@ h1 , h2 , h3 , h4 , h5 , h6 {
 }
 
 .navbar_img {
-    width: 50%;
-    text-align: left;
+    width: 60%;
     float: left;
 }
 
 .navbar_img img {
-    margin: 10px 5rem;
+    margin: 5px 0 5px 30px;
     width: 100px;
 }
 
 .navbar_content {
-    width: 50%;
+    width: 40%;
     display: inline-block;
 }
 
 .navbar_content ul {
     list-style-type: none;
     text-align: center;
+    margin: 5px 0;
     padding: 0;
 }
 
 .navbar_content ul li {
     text-align: center;
-    margin: 0 30px;
+    margin: 0 15px;
     float: left;
 }
 
