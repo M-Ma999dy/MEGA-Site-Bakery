@@ -22,6 +22,49 @@
 
 <body>
 
+    <!---------------------------------------------------------------------------------------------------------------------------->
+    <!---------------------------------------------------------------------------------------------------------------------------->
+    <!-- Loader -->
+    <!------------>
+
+    <div id="myLoading">
+
+        <!---------------------------------------------------------------->
+
+        <div id="loadingDiv" class="d-flex justify-content-center align-items-center">
+            <div id="loaderDiv" class="loader--style6" title="5">
+                <svg id="loaderSize" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="30px"
+                    viewBox="0 0 24 30" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+                    <rect x="0" y="13" width="4" height="5" fill="blue">
+                        <animate attributeName="height" attributeType="XML" values="5;21;5" begin="0s" dur="0.6s"
+                            repeatCount="indefinite" />
+                        <animate attributeName="y" attributeType="XML" values="13; 5; 13" begin="0s" dur="0.6s"
+                            repeatCount="indefinite" />
+                    </rect>
+                    <rect x="10" y="13" width="4" height="5" fill="white">
+                        <animate attributeName="height" attributeType="XML" values="5;21;5" begin="0.15s" dur="0.6s"
+                            repeatCount="indefinite" />
+                        <animate attributeName="y" attributeType="XML" values="13; 5; 13" begin="0.15s" dur="0.6s"
+                            repeatCount="indefinite" />
+                    </rect>
+                    <rect x="20" y="13" width="4" height="5" fill="blue">
+                        <animate attributeName="height" attributeType="XML" values="5;21;5" begin="0.3s" dur="0.6s"
+                            repeatCount="indefinite" />
+                        <animate attributeName="y" attributeType="XML" values="13; 5; 13" begin="0.3s" dur="0.6s"
+                            repeatCount="indefinite" />
+                    </rect>
+                </svg>
+            </div>
+        </div>
+
+        <!---------------------------------------------------------------->
+
+    </div>
+
+    <!---------------------------------------------------------------------------------------------------------------------------->
+
+
     <!-- Nav Bar ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
     <div class="navbar">
@@ -275,6 +318,9 @@
 
     <!-- Offline Bootstrap js : -->
     <script src="JS/bootstrap.bundle.min.js"></script>
+
+    <!-- jquery js : -->
+    <script src="JS/jquery-3.6.3.min.js"></script>
 
     <!-- My js : -->
     <script src="JS/index.js"></script>
