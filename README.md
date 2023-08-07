@@ -6,7 +6,7 @@
 #
 # About Website :
 -----------------------
-- Languages i Used on the Site HTML, CSS
+- Languages i Used in This Site HTML, CSS
   
 - This Site just For Training on Use HTML , CSS (Float, @media screen, @media print) 
 #
